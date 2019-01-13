@@ -71,6 +71,7 @@ class FieldType extends AbstractType
                     'social'       => 'mautic.lead.field.group.social',
                     'personal'     => 'mautic.lead.field.group.personal',
                     'professional' => 'mautic.lead.field.group.professional',
+                    'prediction'   => 'mautic.lead.field.group.prediction',
                 ],
                 'attr' => [
                     'class'   => 'form-control',

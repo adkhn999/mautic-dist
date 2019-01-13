@@ -191,6 +191,29 @@ class FieldModel extends FormModel
             'group'    => 'social',
             'object'   => 'lead',
         ],
+        'customer_id' => [
+            'listable' => true,
+            'object'   => 'lead',
+        ],
+        'cltv' => [
+            'type'       => 'number',
+            'properties' => ['roundmode' => 4, 'precision' => 2],
+            'listable'   => true,
+            'group'      => 'prediction',
+            'object'     => 'lead',
+        ],
+        'cltv_percent' => [
+            'type'       => 'number',
+            'properties' => ['roundmode' => 4, 'precision' => 2],
+            'listable'   => true,
+            'group'      => 'prediction',
+            'object'     => 'lead',
+        ],
+        'value_segment' => [
+            'listable' => true,
+            'group'    => 'prediction',
+            'object'   => 'lead',
+        ],
     ];
 
     public static $coreCompanyFields = [
